@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework', #se debe instalar el framework del framework
     'users', #se agrega coleccion creada
+    'cars', 
 ]
 
 MIDDLEWARE = [

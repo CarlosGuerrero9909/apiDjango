@@ -23,7 +23,7 @@ def getUsers(request, *args, **kwargs):
         })
 
     if request.method == 'GET':
-        _users = users.objects.all()
+        _users = users.objects.all()#trae todos los usuarios, ya esta asociado los user a una bd que los guarda
 
         return Response({
             "data" : [{

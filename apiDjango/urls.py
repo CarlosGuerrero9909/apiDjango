@@ -19,4 +19,6 @@ from django.urls import path, include #include asocia un concepto general a urls
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('users/', include("users.urls")),
+    path('cars/', include("cars.urls") ),
+
 ]
